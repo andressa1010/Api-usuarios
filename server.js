@@ -82,6 +82,6 @@ app.delete("/usuarios/:id", async (req,res)=>{
 
 
 
-app.listen(3000, ()=>{
-    console.log("Sevidor em execução na porta http://localhost:3000/")
+app.listen(3001, ()=>{
+    console.log("Sevidor em execução na porta http://localhost:3001/")
 })
