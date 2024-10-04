@@ -20,9 +20,10 @@ app.get("/usuarios" , async(req, res)=>{
     const user= await prisma.user.findMany()
 
     res.status(200).json(user)
-   
 })
 
+
+  
 
 /* nessa rota eu estou criando usuários novos no banco de dados*/
 
